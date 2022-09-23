@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>pls_infobox</title>
+        <link href="noty.css" rel="stylesheet">
+        <link href="themes.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css"> 
+
+    </head>
+    <body id="app">
+     
+        <div id="ap1"  class="section cn">
+            
+            <div class="pmenu-container" >
+                <div class="heading-section">
+                    <h1>{{title}}</h1>
+                </div>
+                <div class="navbar-section cn">
+                    <ul class="navbar">
+                        <li class="navbar-item" v-for="sc in content" v-on:click="navChange" :target="sc.uname" :id="'button_'+sc.uname">{{sc.menu}} </li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <div v-for="sc in content" class="content-list" :id="sc.uname">
+                        <h1>{{sc.heading}}</h1>
+                        <p v-html="sc.content"></p>
+                    </div>
+                </div>
+                <div class="button-section cn">
+                    <button class="confirm-button" v-on:click="confirmButton()">{{button.text}}</button> 
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="assets/script/script.js"></script>
+
+</html>
+ 
