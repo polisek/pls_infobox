@@ -89,6 +89,9 @@ TriggerClientEvent("pls_infobox:client:open", src,{
 
 
 ```
+When menu closing starts event pls_infobox:client:closing
+
+
 ![image](https://user-images.githubusercontent.com/107623238/192042111-412309af-b4c3-4943-a2a9-fe8c4ed35077.png)
 
 
