@@ -7,8 +7,7 @@ Simple infoboxes for RedM!
 
 Client
 ```
-exports["pls_infobox"]:openInfobox(
-{
+exports["pls_infobox"]:openInfobox({
             title="Welcome in Saint Denis",
             content={
                 {
