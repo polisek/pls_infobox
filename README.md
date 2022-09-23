@@ -71,7 +71,7 @@ TriggerClientEvent("pls_infobox:client:open", src,{
         })
 ```
 
-# Text vizual example
+# Text visual example
 ```
 -- #br #/br - Line down
 -- #b #/b - Bold text
