@@ -108,7 +108,7 @@ ensure pls_infobox
 
 ![image](https://user-images.githubusercontent.com/107623238/192040539-04f53f09-a8b0-4f59-8648-35b6607fc040.png)
 
-
+https://www.youtube.com/watch?v=p73ldJJ8E5I&ab_channel=Pol%C3%ADsek-scripts
 
 # Support
 - discord : https://discord.gg/VvRGG6rPCc
